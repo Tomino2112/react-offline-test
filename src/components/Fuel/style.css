@@ -1,0 +1,5 @@
+.fuel h4:after {
+    content: "%";
+    font-size: 0.5em;
+    vertical-align: top;
+}

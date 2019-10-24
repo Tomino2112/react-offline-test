@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const host = 'localhost';
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 module.exports = {
     mode: 'development',

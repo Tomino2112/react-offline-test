@@ -7,11 +7,11 @@ const App = () => {
     const generationReq = useLoadGeneration();
 
     if (generationReq.status === "LOADING") {
-        return <h1>Loading...</h1>;
+        return <h1 className={"loading pulsate"}>Loading...</h1>;
     }
 
     if (generationReq.status === "ERROR") {
-        return <h1>Error: { generationReq.data.message }</h1>;
+        return <div className={"content"}><h1>Error: { generationReq.data.message }</h1></div>;
     }
 
     const majorFuels = generationReq.data.generationmix.slice(0, 3);

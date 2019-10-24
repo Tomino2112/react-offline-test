@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FuelList should render and match snapshot 1`] = `
+<ul
+  className="fuel-list"
+>
+  <li
+    key="card-biomass"
+  >
+    <Fuel
+      name="biomass"
+      percentage={4.8}
+    />
+  </li>
+  <li
+    key="card-coal"
+  >
+    <Fuel
+      name="coal"
+      percentage={2.5}
+    />
+  </li>
+  <li
+    key="card-imports"
+  >
+    <Fuel
+      name="imports"
+      percentage={8.7}
+    />
+  </li>
+  <li
+    key="card-gas"
+  >
+    <Fuel
+      name="gas"
+      percentage={46.5}
+    />
+  </li>
+  <li
+    key="card-nuclear"
+  >
+    <Fuel
+      name="nuclear"
+      percentage={16.1}
+    />
+  </li>
+  <li
+    key="card-other"
+  >
+    <Fuel
+      name="other"
+      percentage={0.3}
+    />
+  </li>
+  <li
+    key="card-hydro"
+  >
+    <Fuel
+      name="hydro"
+      percentage={0.9}
+    />
+  </li>
+  <li
+    key="card-solar"
+  >
+    <Fuel
+      name="solar"
+      percentage={14.6}
+    />
+  </li>
+  <li
+    key="card-wind"
+  >
+    <Fuel
+      name="wind"
+      percentage={5.6}
+    />
+  </li>
+</ul>
+`;

@@ -1,0 +1,12 @@
+.fuel-list {
+    display: flex;
+    margin-bottom: 60px;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+.fuel-list--major {
+    font-size: 2em;
+}

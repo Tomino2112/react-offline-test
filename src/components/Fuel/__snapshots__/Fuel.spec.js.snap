@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fuel should render and match snapshot 1`] = `
+<Fragment>
+  <h3>
+    Foo
+  </h3>
+  <h4>
+    10.0
+    %
+  </h4>
+</Fragment>
+`;

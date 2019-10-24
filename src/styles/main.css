@@ -1,0 +1,20 @@
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.content {
+    width: 80%;
+    max-width: 1020px;
+    margin: 20px auto;
+}
+
+section {
+    margin: 40px 0;
+}

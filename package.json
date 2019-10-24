@@ -6,8 +6,10 @@
     "start": "webpack-dev-server --hot --progress --colors"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "reset-css": "^5.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -19,6 +21,7 @@
     "@types/jest": "^24.0.18",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
@@ -54,6 +57,8 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ],
-    "setupFiles": ["./src/setupTests.js"]
+    "setupFiles": [
+      "./src/setupTests.js"
+    ]
   }
 }

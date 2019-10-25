@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenerationChart should render and match snapshot 1`] = `
+<Fragment>
+  <Donut
+    chart={
+      Object {
+        "create": [Function],
+        "destroy": [Function],
+        "loading": [Function],
+        "update": [Function],
+      }
+    }
+    data={
+      Array [
+        Object {
+          "name": "Biomass",
+          "percentage": 4.8,
+          "quantity": 4.8,
+        },
+        Object {
+          "name": "Coal",
+          "percentage": 2.5,
+          "quantity": 2.5,
+        },
+        Object {
+          "name": "Imports",
+          "percentage": 8.7,
+          "quantity": 8.7,
+        },
+        Object {
+          "name": "Gas",
+          "percentage": 46.5,
+          "quantity": 46.5,
+        },
+        Object {
+          "name": "Nuclear",
+          "percentage": 16.1,
+          "quantity": 16.1,
+        },
+        Object {
+          "name": "Other",
+          "percentage": 0.3,
+          "quantity": 0.3,
+        },
+        Object {
+          "name": "Hydro",
+          "percentage": 0.9,
+          "quantity": 0.9,
+        },
+        Object {
+          "name": "Solar",
+          "percentage": 14.6,
+          "quantity": 14.6,
+        },
+        Object {
+          "name": "Wind",
+          "percentage": 5.6,
+          "quantity": 5.6,
+        },
+      ]
+    }
+    externalRadius={200}
+    height={400}
+    highlightSliceById={1}
+    internalRadius={130}
+    isAnimated={true}
+    shouldShowLoadingState={false}
+    width={400}
+  />
+  <Legend
+    chart={
+      Object {
+        "create": [Function],
+        "destroy": [Function],
+        "update": [Function],
+      }
+    }
+    data={
+      Array [
+        Object {
+          "name": "Biomass",
+          "percentage": 4.8,
+          "quantity": 4.8,
+        },
+        Object {
+          "name": "Coal",
+          "percentage": 2.5,
+          "quantity": 2.5,
+        },
+        Object {
+          "name": "Imports",
+          "percentage": 8.7,
+          "quantity": 8.7,
+        },
+        Object {
+          "name": "Gas",
+          "percentage": 46.5,
+          "quantity": 46.5,
+        },
+        Object {
+          "name": "Nuclear",
+          "percentage": 16.1,
+          "quantity": 16.1,
+        },
+        Object {
+          "name": "Other",
+          "percentage": 0.3,
+          "quantity": 0.3,
+        },
+        Object {
+          "name": "Hydro",
+          "percentage": 0.9,
+          "quantity": 0.9,
+        },
+        Object {
+          "name": "Solar",
+          "percentage": 14.6,
+          "quantity": 14.6,
+        },
+        Object {
+          "name": "Wind",
+          "percentage": 5.6,
+          "quantity": 5.6,
+        },
+      ]
+    }
+    height={400}
+    numberFormat=".3"
+    unit="%"
+  />
+</Fragment>
+`;

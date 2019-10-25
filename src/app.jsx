@@ -1,6 +1,7 @@
 import React from 'react';
 import useLoadGeneration from './hooks/useLoadGeneration';
 import FuelList from './components/FuelList/FuelList';
+import GenerationChart from './components/GenerationChart/GenerationChart';
 import "./styles/main.css";
 
 const App = () => {
@@ -23,6 +24,9 @@ const App = () => {
         <section>
             <FuelList fuels={majorFuels} major />
             <FuelList fuels={minorFuels} />
+        </section>
+        <section className={"charts"}>        
+            <GenerationChart generation={generationReq.data.generationmix} />
         </section>
     </div>;
 };

@@ -8,6 +8,7 @@
   "dependencies": {
     "britecharts-react": "^0.5.3",
     "classnames": "^2.2.6",
+    "moment": "^2.24.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "reset-css": "^5.0.1"

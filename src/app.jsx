@@ -2,7 +2,10 @@ import React from 'react';
 import useLoadGeneration from './hooks/useLoadGeneration';
 import FuelList from './components/FuelList/FuelList';
 import GenerationChart from './components/GenerationChart/GenerationChart';
+import moment from 'moment';
 import "./styles/main.css";
+
+const formatDate = date => moment(date).format("L LT");
 
 const App = () => {
     const generationReq = useLoadGeneration();
@@ -16,11 +19,11 @@ const App = () => {
     }
 
     const majorFuels = generationReq.data.generationmix.slice(0, 3);
-    const minorFuels = generationReq.data.generationmix.slice(3);
+    const minorFuels = generationReq.data.generationmix.slice(3);    
 
     return <div className={"content"}>        
         <h1>Generation Mix for the GB power system </h1>
-        <h2>{generationReq.data.from} - {generationReq.data.to}</h2>
+        <h2>{formatDate(generationReq.data.from)} - {formatDate(generationReq.data.to)}</h2>
         <section>
             <FuelList fuels={majorFuels} major />
             <FuelList fuels={minorFuels} />
